@@ -122,7 +122,7 @@ hr{
     display: flex;
     gap: 24px;
     margin-top: 50px;
-    margin-bottom: 80px;
+    margin-bottom: 150px;
 }
 
 .donate-box .donate-plan-box{
@@ -155,9 +155,16 @@ color: #707070;
     gap: 83px;
     margin-bottom: 100px;
 }
+.donate-item{
+    width: 480px;
+}
+
 .live-donate-img img{
     width: 450px;
     height: 477px;
+    object-fit: cover;
+    border-radius: 5px;
+
 }
 .donate-title-live{
     margin-top: 100px;
@@ -178,5 +185,29 @@ color: #707070;
     font-size: 18px;
     margin-top: 30px;
     margin-bottom: 30px;
+}
+
+/* contact style */
+.contact{
+    height: 200px;
+    background: #FFF4D6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact input{
+    font-size: 18px;
+    padding: 15px 10px;
+    border: none;
+    outline: none;
+    background: #fff;
+}
+.contact button{
+    padding: 15px 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .3s;
 }
 
